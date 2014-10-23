@@ -11,6 +11,9 @@
 		032C989419F93B8C00AC1757 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C989319F93B8C00AC1757 /* AppDelegate.m */; };
 		032C989C19F93B8C00AC1757 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032C989B19F93B8C00AC1757 /* Images.xcassets */; };
 		032C98AB19F93B8D00AC1757 /* TouchTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C98AA19F93B8D00AC1757 /* TouchTrackerTests.m */; };
+		032C98B619F93C4900AC1757 /* ATRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C98B519F93C4900AC1757 /* ATRLine.m */; };
+		032C98B919F93CD000AC1757 /* ATRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C98B819F93CD000AC1757 /* ATRDrawView.m */; };
+		032C98BC19F93CF600AC1757 /* ATRDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C98BB19F93CF600AC1757 /* ATRDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,12 @@
 		032C98A419F93B8D00AC1757 /* TouchTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		032C98A919F93B8D00AC1757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		032C98AA19F93B8D00AC1757 /* TouchTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTrackerTests.m; sourceTree = "<group>"; };
+		032C98B419F93C4900AC1757 /* ATRLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRLine.h; sourceTree = "<group>"; };
+		032C98B519F93C4900AC1757 /* ATRLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRLine.m; sourceTree = "<group>"; };
+		032C98B719F93CD000AC1757 /* ATRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRDrawView.h; sourceTree = "<group>"; };
+		032C98B819F93CD000AC1757 /* ATRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRDrawView.m; sourceTree = "<group>"; };
+		032C98BA19F93CF600AC1757 /* ATRDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRDrawViewController.h; sourceTree = "<group>"; };
+		032C98BB19F93CF600AC1757 /* ATRDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,12 @@
 		032C988D19F93B8C00AC1757 /* TouchTracker */ = {
 			isa = PBXGroup;
 			children = (
+				032C98B419F93C4900AC1757 /* ATRLine.h */,
+				032C98B519F93C4900AC1757 /* ATRLine.m */,
+				032C98B719F93CD000AC1757 /* ATRDrawView.h */,
+				032C98B819F93CD000AC1757 /* ATRDrawView.m */,
+				032C98BA19F93CF600AC1757 /* ATRDrawViewController.h */,
+				032C98BB19F93CF600AC1757 /* ATRDrawViewController.m */,
 				032C989219F93B8C00AC1757 /* AppDelegate.h */,
 				032C989319F93B8C00AC1757 /* AppDelegate.m */,
 				032C989B19F93B8C00AC1757 /* Images.xcassets */,
@@ -206,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032C98B919F93CD000AC1757 /* ATRDrawView.m in Sources */,
+				032C98B619F93C4900AC1757 /* ATRLine.m in Sources */,
 				032C989419F93B8C00AC1757 /* AppDelegate.m in Sources */,
+				032C98BC19F93CF600AC1757 /* ATRDrawViewController.m in Sources */,
 				032C989119F93B8C00AC1757 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
